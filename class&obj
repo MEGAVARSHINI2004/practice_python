@@ -1,0 +1,42 @@
+#Example-1
+class goa:
+    name=""
+    drink=""
+    def party(self):
+        print("lets party")
+    def beach(self):
+        print("Enjoy the beach")
+###ticket for goa
+ramesh=goa()
+suresh=goa()
+###setting name & drink
+ramesh.name="Ramesh"
+ramesh.drink="yes"
+suresh.name="Suresh"
+suresh.drink="NO"
+###print
+print(ramesh.name)
+print("drink:",ramesh.drink)
+ramesh.party()
+print(suresh.name)
+print("drink:",suresh.drink)
+suresh.beach()
+
+#Example-2
+class laptop:
+    price=0
+    processor=""
+    ram=""
+hp=laptop()
+dell=laptop()
+
+hp.price=50000
+hp.processor="i5"
+hp.ram="8gb"
+
+dell.price=60000
+dell.processor="i6"
+dell.ram="15gb"
+
+print("price of hp",hp.price)
+print("price of dell",dell.price)
