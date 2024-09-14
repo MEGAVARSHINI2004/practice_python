@@ -1,0 +1,59 @@
+#print numbers from 1 to 
+n=1
+while(n<6):
+    print(n)
+    n+=1
+
+
+#pattern generation right triangle
+n=1
+while(n<6):
+    print("* "*n)
+    n+=1
+
+#series from 10,20,30......,200
+n=10
+while(n<201):
+    print(n,end=",")
+    n+=10
+
+#first 10 natural numbers in reverse order
+n=10
+while(n>0):
+    print(n,end=" ")
+    n-=1
+
+#factorial
+n=int(input("enter a number:"))
+fact=1
+while(n>0):
+    fact=fact*n
+    n-=1
+print(fact)
+
+##equilateral triangle
+n=1
+while(n<6):
+    print(" "*(6-n),"* "*n)
+    n+=1
+
+#mul table
+i=int(input("Enter a number:"))
+n=1
+while(n<=10):
+    print(n,"*",i,"=",n*i)
+    n+=1
+
+##even numbers from 1 to 10
+n=1
+while(n<11):
+    if(n%2==0):
+        print(n)
+    n+=1
+
+#Example 1
+n=1
+while(n<6):
+    print(1,n+1,end=" ")
+    print()
+n+=1

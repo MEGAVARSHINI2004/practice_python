@@ -1,0 +1,30 @@
+#syntax
+##def func_name(args):---> for defining functions
+##    statements...
+##    return something #arg,return is not compulsory
+
+#without arg and with return type
+def greet():
+    return "hello"
+#with arg and with return type
+def add(a,b):
+    return a+b
+#with arg without return type
+def add(a,b):
+    c=a+b
+    print(c)
+#withot arg and without return type
+def greet():
+    print("hello there")
+#positional args
+def sub_it(a,b):
+    return(f"a is {a} and b is {b}")
+#variable length args
+def add(*a):
+    return(a)
+#keyword args
+def add1(**a):
+    return(a)
+#all in one
+def display(a,b,*c,**d):
+    print(a,b,c,d,sep="\n")
