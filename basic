@@ -1,0 +1,48 @@
+#avg,good,bad students
+score=int(input("Enter the score:"))
+if(score<35):
+    print("poor student")
+elif(score >35 and score<70):
+    print("Avg student")
+else:
+     print("good student")
+
+#odd/even number
+n=int(input("Enter a number:"))
+if(n%2==0):
+    print(n,"is an even number")
+else:
+    print(n,"is an odd number")
+
+#divisible by both 3&5
+n=int(input("Enter a number:"))
+if(n%3 == 0 and n%5==0):
+    print("divisible by both")
+else:
+    print("not divisible by both")
+
+#scholarship
+vi=int(input("Enter your income:"))
+if(vi<7000):
+    print("scholarship is avaliable")
+else:
+    print("not eligible for scholarship")
+
+#Example1
+meghna=input()
+if(meghna=="died"):
+    print("surya meeets priya")
+else:
+    print("surya weds meghna")
+
+#Example2
+s='-'.join('hello')
+print(s)
+
+#Average mark
+name=input("ENTER YOUR NAME:")
+score=int(input("ENTER YOUR SCORE:"))
+dept=input("ENTER YOUR DEPARTMENT:")
+avg=score/10
+print("MY NAME IS:",name)
+print("THE AVERAGE IS:",avg)
