@@ -1,0 +1,18 @@
+#pallindrome
+a=input("Enter a string:")
+b=a[::-1]
+if(a==b):
+    print("Pallindrome")
+else:
+    print("Not a pallindrome")
+
+#if there is 0 in a list put in end of the list
+s=[]
+n=int(input("Enter elements:"))
+for i in range(0,n):
+    e=int(input())
+    s.append(e)
+print(s)
+r=[n for n in s if n!=0]
+r.extend([0]*s.count(0))
+print(r)
